@@ -1,0 +1,84 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  font-family: "Mulish", sans-serif;
+}
+nav li {
+  font-size: 18px;
+  color: #1f1534;
+}
+nav a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 49px;
+  line-height: 59px;
+  font-weight: normal;
+}
+h1 strong {
+  color: #89c5cc;
+}
+p {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  padding: 0;
+  margin: 0;
+}
+ul li a {
+  opacity: 0.5;
+}
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+  margin-top: 80px;
+}
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.wpp {
+  padding-top: 30px;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+.bolinhas {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
